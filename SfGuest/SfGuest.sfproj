@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" InitialTargets=";ValidateMSBuildFiles">
+  <Import Project="..\packages\Microsoft.VisualStudio.Azure.Fabric.MSBuild.1.6.7\build\Microsoft.VisualStudio.Azure.Fabric.Application.props" Condition="Exists('..\packages\Microsoft.VisualStudio.Azure.Fabric.MSBuild.1.6.7\build\Microsoft.VisualStudio.Azure.Fabric.Application.props')" />
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>cc3e32f6-0fe7-4d25-8c76-9ce6af009407</ProjectGuid>
+    <ProjectVersion>2.3</ProjectVersion>
+    <MinToolsVersion>1.5</MinToolsVersion>
+    <SupportedMSBuildNuGetPackageVersion>1.6.7</SupportedMSBuildNuGetPackageVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ApplicationPackageRoot\ApplicationManifest.xml" />
+    <None Include="ApplicationParameters\Cloud.xml" />
+    <None Include="ApplicationParameters\Local.1Node.xml" />
+    <None Include="ApplicationParameters\Local.5Node.xml" />
+    <None Include="PublishProfiles\Cloud.xml" />
+    <None Include="PublishProfiles\Local.1Node.xml" />
+    <None Include="PublishProfiles\Local.5Node.xml" />
+    <None Include="Scripts\Deploy-FabricApplication.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\App.config" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\CasReports.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\CasReports.pdb" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\CasReportsImpl.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\CasReportsImpl.pdb" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\Common.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\Common.pdb" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\Data Access Layer.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\Data Access Layer.pdb" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.Charts.v11.1.Core.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.Data.v11.1.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.Data.v11.1.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.PivotGrid.v11.1.Core.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.PivotGrid.v11.1.Core.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.Printing.v11.1.Core.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.RichEdit.v11.1.Core.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.RichEdit.v11.1.Core.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.Utils.v11.1.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.Utils.v11.1.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraCharts.v11.1.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraCharts.v11.1.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraEditors.v11.1.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraEditors.v11.1.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraGauges.v11.1.Core.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraGauges.v11.1.Core.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraGauges.v11.1.Win.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraGauges.v11.1.Win.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraNavBar.v11.1.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraNavBar.v11.1.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraPivotGrid.v11.1.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraPivotGrid.v11.1.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraReports.v11.1.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraReports.v11.1.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraRichEdit.v11.1.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraRichEdit.v11.1.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraScheduler.v11.1.Core.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraScheduler.v11.1.Core.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraScheduler.v11.1.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraScheduler.v11.1.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraWizard.v11.1.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\DevExpress.XtraWizard.v11.1.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\EngineServiceWCF.exe" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\EngineServiceWCF.exe.config" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\EngineServiceWCF.InstallLog" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\EngineServiceWCF.InstallState" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\EngineServiceWCF.pdb" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\EngineServiceWCF.vshost.exe" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\EngineServiceWCF.vshost.exe.config" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\EngineServiceWCF.vshost.exe.manifest" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\InstallUtil.InstallLog" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\Ionic.Zip.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\NPOI.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\PhoneNumbers.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\PhoneSys.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\PhoneSys.pdb" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\PhoneSysSupport.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\PhoneSysSupport.pdb" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\ServiceStack.Text.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\ServiceStack.Text.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\StackExchange.Redis.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\StackExchange.Redis.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\SysCommon.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\SysCommon.pdb" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\Tabula.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\Tabula.pdb" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\WcfEngineService Sales.dll" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\bin\Debug\WcfEngineService Sales.pdb" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\HostWCFEngine.csproj" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\obj\Debug\EngineServiceWCF.exe" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\obj\Debug\EngineServiceWCF.pdb" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\obj\Debug\HostWCFEngine.csproj.FileListAbsolute.txt" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\obj\Debug\HostWCFEngine.csproj.GenerateResource.Cache" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\obj\Debug\HostWCFEngine.csprojResolveAssemblyReference.cache" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\obj\Debug\HostWCFEngine.ProjectInstaller.resources" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\Program.cs" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\ProjectInstaller.cs" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\ProjectInstaller.Designer.cs" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\ProjectInstaller.resx" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\Properties\AssemblyInfo.cs" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\Service1.cs" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Code\Service1.Designer.cs" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\Config\Settings.xml" />
+    <Content Include="ApplicationPackageRoot\AgentServicePkg\ServiceManifest.xml" />
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <PropertyGroup>
+    <ApplicationProjectTargetsPath>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Service Fabric Tools\Microsoft.VisualStudio.Azure.Fabric.ApplicationProject.targets</ApplicationProjectTargetsPath>
+  </PropertyGroup>
+  <Import Project="$(ApplicationProjectTargetsPath)" Condition="Exists('$(ApplicationProjectTargetsPath)')" />
+  <Import Project="..\packages\Microsoft.VisualStudio.Azure.Fabric.MSBuild.1.6.7\build\Microsoft.VisualStudio.Azure.Fabric.Application.targets" Condition="Exists('..\packages\Microsoft.VisualStudio.Azure.Fabric.MSBuild.1.6.7\build\Microsoft.VisualStudio.Azure.Fabric.Application.targets')" />
+  <Target Name="ValidateMSBuildFiles">
+    <Error Condition="!Exists('..\packages\Microsoft.VisualStudio.Azure.Fabric.MSBuild.1.6.7\build\Microsoft.VisualStudio.Azure.Fabric.Application.props')" Text="Unable to find the '..\packages\Microsoft.VisualStudio.Azure.Fabric.MSBuild.1.6.7\build\Microsoft.VisualStudio.Azure.Fabric.Application.props' file. Please restore the 'Microsoft.VisualStudio.Azure.Fabric.MSBuild' Nuget package." />
+    <Error Condition="!Exists('..\packages\Microsoft.VisualStudio.Azure.Fabric.MSBuild.1.6.7\build\Microsoft.VisualStudio.Azure.Fabric.Application.targets')" Text="Unable to find the '..\packages\Microsoft.VisualStudio.Azure.Fabric.MSBuild.1.6.7\build\Microsoft.VisualStudio.Azure.Fabric.Application.targets' file. Please restore the 'Microsoft.VisualStudio.Azure.Fabric.MSBuild' Nuget package." />
+  </Target>
+</Project>

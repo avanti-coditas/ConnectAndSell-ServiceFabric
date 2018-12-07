@@ -1,0 +1,2 @@
+G:\Avanti\POC\SFWcf\SFWcf\SfGuest\bin\Debug\SfGuest.config
+G:\Avanti\POC\SFWcf\SFWcf\SfGuest\obj\x64\Debug\SfGuest.sfproj.CoreCompileInputs.cache

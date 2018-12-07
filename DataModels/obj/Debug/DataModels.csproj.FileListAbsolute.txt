@@ -1,0 +1,6 @@
+G:\Avanti\POC\SFWcf\SFWcf\DataModels\bin\Debug\DataModels.dll
+G:\Avanti\POC\SFWcf\SFWcf\DataModels\bin\Debug\DataModels.pdb
+G:\Avanti\POC\SFWcf\SFWcf\DataModels\obj\Debug\DataModels.csprojAssemblyReference.cache
+G:\Avanti\POC\SFWcf\SFWcf\DataModels\obj\Debug\DataModels.csproj.CoreCompileInputs.cache
+G:\Avanti\POC\SFWcf\SFWcf\DataModels\obj\Debug\DataModels.dll
+G:\Avanti\POC\SFWcf\SFWcf\DataModels\obj\Debug\DataModels.pdb

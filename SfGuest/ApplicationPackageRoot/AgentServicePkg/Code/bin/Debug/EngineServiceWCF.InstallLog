@@ -1,0 +1,13 @@
+﻿Installing assembly 'G:\Repository\Cast-A-Net-WCF-master\Cast-A-Net-WCF-master\HostWCFEngine\bin\Debug\EngineServiceWCF.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = G:\Repository\Cast-A-Net-WCF-master\Cast-A-Net-WCF-master\HostWCFEngine\bin\Debug\EngineServiceWCF.exe
+   logfile = G:\Repository\Cast-A-Net-WCF-master\Cast-A-Net-WCF-master\HostWCFEngine\bin\Debug\EngineServiceWCF.InstallLog
+Installing service Cast-A-Net-WCF...
+Service Cast-A-Net-WCF has been successfully installed.
+Creating EventLog source Cast-A-Net-WCF in log Application...
+Committing assembly 'G:\Repository\Cast-A-Net-WCF-master\Cast-A-Net-WCF-master\HostWCFEngine\bin\Debug\EngineServiceWCF.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = G:\Repository\Cast-A-Net-WCF-master\Cast-A-Net-WCF-master\HostWCFEngine\bin\Debug\EngineServiceWCF.exe
+   logfile = G:\Repository\Cast-A-Net-WCF-master\Cast-A-Net-WCF-master\HostWCFEngine\bin\Debug\EngineServiceWCF.InstallLog

@@ -1,0 +1,14 @@
+﻿
+Running a transacted installation.
+
+Beginning the Install phase of the installation.
+See the contents of the log file for the G:\Repository\Cast-A-Net-WCF-master\Cast-A-Net-WCF-master\HostWCFEngine\bin\Debug\EngineServiceWCF.exe assembly's progress.
+The file is located at G:\Repository\Cast-A-Net-WCF-master\Cast-A-Net-WCF-master\HostWCFEngine\bin\Debug\EngineServiceWCF.InstallLog.
+
+The Install phase completed successfully, and the Commit phase is beginning.
+See the contents of the log file for the G:\Repository\Cast-A-Net-WCF-master\Cast-A-Net-WCF-master\HostWCFEngine\bin\Debug\EngineServiceWCF.exe assembly's progress.
+The file is located at G:\Repository\Cast-A-Net-WCF-master\Cast-A-Net-WCF-master\HostWCFEngine\bin\Debug\EngineServiceWCF.InstallLog.
+
+The Commit phase completed successfully.
+
+The transacted install has completed.

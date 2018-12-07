@@ -1,0 +1,9 @@
+G:\Avanti\POC\SFWcf\SFWcf\ServiceContracts\bin\Debug\ServiceContracts.dll
+G:\Avanti\POC\SFWcf\SFWcf\ServiceContracts\bin\Debug\ServiceContracts.pdb
+G:\Avanti\POC\SFWcf\SFWcf\ServiceContracts\bin\Debug\DataModels.dll
+G:\Avanti\POC\SFWcf\SFWcf\ServiceContracts\bin\Debug\DataModels.pdb
+G:\Avanti\POC\SFWcf\SFWcf\ServiceContracts\obj\Debug\ServiceContracts.csprojAssemblyReference.cache
+G:\Avanti\POC\SFWcf\SFWcf\ServiceContracts\obj\Debug\ServiceContracts.csproj.CoreCompileInputs.cache
+G:\Avanti\POC\SFWcf\SFWcf\ServiceContracts\obj\Debug\ServiceContracts.csproj.CopyComplete
+G:\Avanti\POC\SFWcf\SFWcf\ServiceContracts\obj\Debug\ServiceContracts.dll
+G:\Avanti\POC\SFWcf\SFWcf\ServiceContracts\obj\Debug\ServiceContracts.pdb
